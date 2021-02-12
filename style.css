@@ -1,0 +1,23 @@
+body {
+  background: #2acaa4;
+}
+
+.card {
+  height: 200px;
+  width: 125px;
+  background: white;
+  font-size: 400%;
+  margin: 0 50px;
+}
+
+.card span {
+  margin: auto;
+}
+
+.card span.black {
+  color: black;
+}
+
+.card span.red {
+  color: red;
+}
