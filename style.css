@@ -7,7 +7,7 @@ body {
   width: 125px;
   background: white;
   font-size: 400%;
-  margin: 0 50px;
+  margin: 0 20px;
 }
 
 .card span {
@@ -20,4 +20,45 @@ body {
 
 .card span.red {
   color: red;
+}
+
+.hide {
+  display: none;
+}
+
+#table {
+  position: relative;
+}
+
+.announce {
+  position: absolute;
+  top: 0;
+  padding-left: 450px;
+  padding-top: 30px;
+  width: 100%;
+  height: 100%;
+  z-index: 100;
+}
+
+.announce span {
+  font-size: 72px;
+}
+
+#bust {
+  border: 2px solid red;
+  background: rgba(255, 0, 0, 0.315);
+}
+
+#blackjack {
+  border: 2px solid green;
+  background: rgba(0, 255, 0, 0.315);
+}
+
+#standOverlay {
+  border: 2px solid blue;
+  background: rgba(0, 0, 255, 0.315)
+}
+
+#count {
+  font-size: 24px;
 }

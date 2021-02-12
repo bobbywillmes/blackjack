@@ -18,20 +18,42 @@
   </header>
 
   <div class="container">
-    <div class="row">
-      <div class="card">
+
+    <div id="buttons" class="row">
+      <div class="col">
+        <button id="play" class="btn btn-primary">Play</button>
+        <button id="hit" class="btn btn-primary d-none">Hit</button>
+        <button id="stand" class="btn btn-primary d-none" disabled>Stand</button>
+      </div>
+      <div id="count" class="col d-none">
+        Count: <span>0</span>
+      </div>
+    </div>
+
+    <hr>
+
+    <div id="table" class="row">
+      <!-- <div class="card">
         <span class="black">A♣</span>
       </div>
       <div class="card">
         <span class="red">5♦</span>
-      </div>
-      <div class="card">
+      </div> -->
+      <!-- <div class="card">
         <span class="black">J♠</span>
       </div>
       <div class="card">
         <span class="red">10♥</span>
+      </div> -->
+      <div id="bust" class="d-none announce">
+        <span>Bust!</span>
       </div>
-
+      <div id="blackjack" class="d-none announce">
+        <span>Blackjack!!</span>
+      </div>
+      <div id="standOverlay" class="d-none announce">
+        <span>Stand</span>
+      </div>
     </div>
   </div>  
 
