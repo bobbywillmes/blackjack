@@ -53,8 +53,10 @@ function startGame() {
 }
 
 $('#play').on('click', function () {
-  startGame()
   clearTable()
+  startGame()
+  setTimeout(hit, 200)
+  setTimeout(hit, 400)
 })
 
 // ♥ ♦
