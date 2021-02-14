@@ -3,6 +3,7 @@ body {
 }
 
 .card {
+  display: inline-block;
   height: 200px;
   width: 125px;
   background: white;
@@ -11,7 +12,11 @@ body {
 }
 
 .card span {
-  margin: auto;
+  display: block;
+  position: absolute;
+  top: 20%;
+  width: 100%;
+  text-align: center;
 }
 
 .card span.black {
@@ -33,7 +38,6 @@ body {
 .announce {
   position: absolute;
   top: 0;
-  padding-left: 450px;
   padding-top: 30px;
   width: 100%;
   height: 100%;
@@ -42,6 +46,8 @@ body {
 
 .announce span {
   font-size: 72px;
+  display: block;
+  text-align: center;
 }
 
 #bust {
@@ -54,11 +60,15 @@ body {
   background: rgba(0, 255, 0, 0.315);
 }
 
-#standOverlay {
-  border: 2px solid blue;
-  background: rgba(0, 0, 255, 0.315)
+#count, #dealerCount {
+  font-size: 24px;
 }
 
-#count {
-  font-size: 24px;
+#winner {
+  border: 2px solid orange;
+  background: rgba(265, 165, 0, 0.315)
+}
+
+.blur {
+  filter: blur(3px)
 }
